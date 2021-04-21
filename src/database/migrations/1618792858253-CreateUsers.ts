@@ -33,7 +33,7 @@ export class CreateUsers1618792858253 implements MigrationInterface {
             type: "varchar",
           },
           {
-            name: "idAdmin",
+            name: "isAdmin",
             type: "boolean",
             default: false,
           },
