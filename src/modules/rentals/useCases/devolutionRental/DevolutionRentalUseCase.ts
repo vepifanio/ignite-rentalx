@@ -1,4 +1,4 @@
-import { inject } from "tsyringe";
+import { inject, injectable } from "tsyringe";
 
 import { ICarsRepository } from "@modules/cars/repositories/ICarsRepository";
 import { Rental } from "@modules/rentals/infra/typeorm/entities/Rental";
